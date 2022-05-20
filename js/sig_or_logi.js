@@ -37,6 +37,34 @@ function log_or_sign () {
         }
     }
     catch(e) {
-        
+
     }
 }
+
+if(us_lonm2 != usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                else if(us_lonm2 == usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) {
+                                    us_losr2 = prompt("Введиет свою фамил");
+                                    if(us_losr2 != usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                    else if(us_losr2 == usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) {
+                                        us_loag2 = prompt("Введиет свой возра");
+
+                                        if(us_lonm2 != usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                else if(us_lonm2 == usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) {
+                                    us_losr2 = prompt("Введиет свою фамил");
+                                    if(us_losr2 != usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                    else if(us_losr2 == usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) {
+                                        us_loag2 = prompt("Введиет свой возра");
+
+                                        if(us_lonm2 != usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                else if(us_lonm2 == usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) {
+                                    us_losr2 = prompt("Введиет свою фамил");
+                                    if(us_losr2 != usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                    else if(us_losr2 == usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) {
+                                        us_loag2 = prompt("Введиет свой возра");
+
+                                        if(us_lonm2 != usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                else if(us_lonm2 == usi_log1.us_usei1.us_usenm1 && us_lonm2 != usi_log1.us_usei1.us_usesr1) {
+                                    us_losr2 = prompt("Введиет свою фамил");
+                                    if(us_losr2 != usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) throw new Error("У вас ошибка, поле не может быть пуст");
+                                    else if(us_losr2 == usi_log1.us_usei1.us_usesr1 && us_losr2 != usi_log1.us_usei1.us_usenm1) {
+                                        us_loag2 = prompt("Введиет свой возра");
