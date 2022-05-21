@@ -86,16 +86,7 @@ function log_or_sign () {
                                                                                                         if(us_dhl2[0] != us_dhl2[1] && us_dhl2[1] != us_dhl2[3]) {
                                                                                                             if(confirm("Надо его отсортирова")) {
                                                                                                                 if(confirm("Эта функция плат")) {
-                                                                                                                    us_dhl2.sort(" ");
-                                                                                                                    delete us_dhl2[1];
-                                                                                                                    us_dhl2.push("15");
-                                                                                                                    if(confirm("Ваш масс" + " " + us_dhl2)) {
-                                                                                                                        if(confirm("Посчитать автоматиче"))  {
-                                                                                                                            if(confirm("Посчита")) {
-                                                                                                                                
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    }
+                                                                                                                    var us_srl2 = [];
                                                                                                                 }
                                                                                                             }
                                                                                                         }
