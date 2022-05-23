@@ -1,0 +1,794 @@
+.mai {
+    .heade_blo2 {
+        .heade_blo2_blo1 {
+            display: flex;
+            flex-direction: column;
+            border: 9px solid darkblue;
+            .heade_blo2_blo1_ro {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border: 7px solid darkgreen;
+                .heade_blo2_blo1_ro_tx1 {
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Arimo", sans-serif;
+                }
+                .heade_blo2_blo1_ro_tx2 {
+                    font-style: normal;
+                    font-family: "Koulen", sans-serif;
+                    margin-bottom: auto;
+                    color: black;
+                    font-size: 19px;
+                }
+            }
+
+            .heade_blo2_blo1_desc {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                @include doug_scre2 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    row-gap: 51px;
+                }
+                flex-basis: 230px;
+                .heade_blo2_blo1_desc1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    max-width: 430px;
+                    justify-content: flex-end;
+                    cursor: pointer;
+                    border: 7px solid darkblue;
+                    transition: 0.5s;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #EEA4A4;
+                    }
+
+                    &:hover .heade_blo2_blo1_desc1_nm2 {
+                        color: #EFB6B6;
+                    }
+                    &:hover .heade_blo2_blo1_desc1_butt1 {
+                        opacity: 100%;
+                    }
+
+                    &:hover .heade_blo2_blo1_desc1_butt1:hover {
+                        opacity: 100%;
+                    }
+                    .heade_blo2_blo1_desc1_nm1 {
+                        font-style: normal;
+                        font-size: 17px;
+                        font-family: "Cousine", sans-serif;
+                        color: black;
+                        align-self: center;
+                        margin-bottom: auto;
+                        transition: 0.5s;
+                    }
+
+                    .heade_blo2_blo1_desc1_nm2 {
+                        font-style: normal;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 15px;
+                        color: #404040;
+                        align-items: center;
+                        margin-bottom: auto;
+                        transition: 0.5s;
+                    }
+
+                    .heade_blo2_blo1_desc1_butt1 {
+                        width: 135px;
+                        height: 31px;
+                        background-color: transparent;
+                        border: 1px solid #000000;
+                        font-style: normal;
+                        color: #000000;
+                        font-size: 15px;
+                        cursor: pointer;
+                        font-family: "Source Sans 3", sans-serif;
+                        align-self: flex-end;
+                        transition: 0.5s;
+                        opacity: 0%;
+                        &:hover {
+                            opacity: 0%;
+                            cursor: pointer;
+                            color: white;
+                            background-color: #EEA4A4;
+                        }
+
+                        @include doug_scre2 {
+                            width: 135px;
+                            height: 31px;
+                            background-color: transparent;
+                            border: 1px solid #000000;
+                            font-style: normal;
+                            color: #000000;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            align-self: center;
+                            transition: 0.5s;
+                            opacity: 0%;
+                            &:hover {
+                                opacity: 0%;
+                                cursor: pointer;
+                                color: white;
+                                background-color: #EEA4A4;
+                        
+                            } 
+                        }
+                        @include doug_scre3 {
+                            width: 135px;
+                            height: 31px;
+                            background-color: transparent;
+                            border: 1px solid #000000;
+                            font-style: normal;
+                            color: #000000;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            align-self: center;
+                            transition: 0.5s;
+                            opacity: 0%;
+                            &:hover {
+                                opacity: 0%;
+                                cursor: pointer;
+                                color: white;
+                                background-color: #EEA4A4;
+                            }
+                        }
+                    }
+                }
+    
+                .heade_blo2_blo2_desc1 {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 430px;
+                    justify-content: flex-end;
+                    border: 7px solid darkblue;
+                    transition: 0.5s;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #EEA4A4;
+                    }
+
+                    &:hover .heade_blo2_blo2_desc1_nm2 {
+                        color: #EFB6B6;
+                    }
+                    &:hover .heade_blo2_blo2_desc1_butt1 {
+                        opacity: 100%;
+                    }
+
+                    &:hover .heade_blo2_blo2_desc1_butt1:hover {
+                        opacity: 100%;
+                    }
+                    .heade_blo2_blo2_desc1_nm1 {
+                        font-style: normal;
+                        font-size: 17px;
+                        font-family: "Cousine", sans-serif;
+                        color: black;
+                        align-self: center;
+                        margin-bottom: auto;
+                        transition: 0.5s;
+                    }
+
+                    .heade_blo2_blo2_desc1_nm2 {
+                        font-style: normal;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 15px;
+                        color: #404040;
+                        align-items: center;
+                        margin-bottom: auto;
+                        transition: 0.5s;
+                    }
+
+                    .heade_blo2_blo2_desc1_butt1 {
+                        width: 135px;
+                        height: 31px;
+                        background-color: transparent;
+                        border: 1px solid #000000;
+                        font-style: normal;
+                        color: #000000;
+                        font-size: 15px;
+                        cursor: pointer;
+                        font-family: "Source Sans 3", sans-serif;
+                        align-self: flex-end;
+                        transition: 0.5s;
+                        opacity: 0%;
+                        &:hover {
+                            opacity: 0%;
+                            cursor: pointer;
+                            color: white;
+                            background-color: #EEA4A4;
+                        }
+
+                        @include doug_scre2 {
+                            width: 135px;
+                            height: 31px;
+                            background-color: transparent;
+                            border: 1px solid #000000;
+                            font-style: normal;
+                            color: #000000;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            align-self: center;
+                            transition: 0.5s;
+                            opacity: 0%;
+                            &:hover {
+                                opacity: 0%;
+                                cursor: pointer;
+                                color: white;
+                                background-color: #EEA4A4;
+                        
+                            } 
+                        }
+
+                        @include doug_scre3 {
+                            width: 135px;
+                            height: 31px;
+                            background-color: transparent;
+                            border: 1px solid #000000;
+                            font-style: normal;
+                            color: #000000;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            align-self: center;
+                            transition: 0.5s;
+                            opacity: 0%;
+                            &:hover {
+                                opacity: 0%;
+                                cursor: pointer;
+                                color: white;
+                                background-color: #EEA4A4;
+                            }
+                        }
+                    }
+                }
+    
+                .heade_blo2_blo3_desc1 {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 430px;
+                    justify-content: flex-end;
+                    border: 7px solid darkblue;
+                    transition: 0.5s;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #EEA4A4;
+                    }
+
+                    &:hover .heade_blo2_blo3_desc1_nm2 {
+                        color: #EFB6B6;
+                    }
+                    &:hover .heade_blo2_blo3_desc1_butt1 {
+                        opacity: 100%;
+                    }
+
+                    &:hover .heade_blo2_blo3_desc1_butt1:hover {
+                        opacity: 100%;
+                    }
+                    .heade_blo2_blo3_desc1_nm1 {
+                        font-style: normal;
+                        font-size: 17px;
+                        font-family: "Cousine", sans-serif;
+                        color: black;
+                        align-self: center;
+                        margin-bottom: auto;
+                        transition: 0.5s;
+                    }
+
+                    .heade_blo2_blo3_desc1_nm2 {
+                        font-style: normal;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 15px;
+                        color: #404040;
+                        align-items: center;
+                        margin-bottom: auto;
+                        transition: 0.5s;
+                    }
+
+                    .heade_blo2_blo3_desc1_butt1 {
+                        width: 135px;
+                        height: 31px;
+                        background-color: transparent;
+                        border: 1px solid #000000;
+                        font-style: normal;
+                        color: #000000;
+                        font-size: 15px;
+                        cursor: pointer;
+                        font-family: "Source Sans 3", sans-serif;
+                        align-self: flex-end;
+                        transition: 0.5s;
+                        opacity: 0%;
+                        &:hover {
+                            opacity: 0%;
+                            cursor: pointer;
+                            color: white;
+                            background-color: #EEA4A4;
+                        }
+
+                        @include doug_scre2 {
+                            width: 135px;
+                            height: 31px;
+                            background-color: transparent;
+                            border: 1px solid #000000;
+                            font-style: normal;
+                            color: #000000;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            align-self: center;
+                            transition: 0.5s;
+                            opacity: 0%;
+                            &:hover {
+                                opacity: 0%;
+                                cursor: pointer;
+                                color: white;
+                                background-color: #EEA4A4;
+                        
+                            } 
+                        }
+
+                        @include doug_scre3 {
+                            width: 135px;
+                            height: 31px;
+                            background-color: transparent;
+                            border: 1px solid #000000;
+                            font-style: normal;
+                            color: #000000;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            align-self: center;
+                            transition: 0.5s;
+                            opacity: 0%;
+                            &:hover {
+                                opacity: 0%;
+                                cursor: pointer;
+                                color: white;
+                                background-color: #EEA4A4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .heade_blo2_blo2 {
+            border: 9px solid darkblue;
+            .heade_blo2_blo2_ro {
+                display: flex;
+                flex-direction: column;
+                border: 7px solid darkgreen;
+                .heade_blo2_blo2_ro_sele1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border: 7px solid darkgreen;
+                    .heade_blo2_blo2_ro_sele1_nm1 {
+                        font-style: normal;
+                        font-family: "Arimo", sans-serif;
+                        color: black;
+                        font-size: 17px;
+                        border: 7px solid darkblue;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_nm2 {
+                        font-style: normal;
+                        color: #414141;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        border: 7px solid darkblue; 
+                    }
+                }
+                .heade_blo2_blo2_ro_sele1_blo1 {
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                    max-width: 200px;
+                    border: 7px solid darkblue;
+                    .heade_blo2_blo2_ro_sele1_blo1_nm1 {
+                        max-width: 70px;
+                        font-style: normal;
+                        color: #545454;
+                        font-size: 15px;
+                        font-family: "Piazzolla", sans-serif;
+                        border: 7px solid darkblue;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo1_descr1 {
+                        max-width: 70px;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkblue;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo1_descr2 {
+                        max-width: 70px;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkblue;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo1_descr3 {
+                        max-width: 70px;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkblue;
+                    }
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_che1 {
+                    display: flex;
+                    flex-direction: column;
+                    flex-basis: 100px;
+                    align-items: flex-end;
+                    justify-content: space-around;
+                    margin-left: auto;
+                    margin-top: -119px;
+                    border: 7px solid darkblue;
+                    .heade_blo2_blo2_ro_sele1_blo1_selc1 {
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo1_selc2 {
+    
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo1_selc3 {
+                    }
+                }
+                .heade_blo2_blo2_ro_sele1_blo1_selc1[type="checkbox"] {
+                    position: relative;
+                    appearance: none;
+                    cursor: pointer;
+                    width: 17px;
+                    height: 17px;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    justify-content: center;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc1[type="checkbox"]::after {
+                    position: absolute;
+                    content: url("../img/svg/checkingmark_87358.svg");
+                    width: 15px;
+                    height: 15px;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc1[type="checkbox"]:checked {
+                    background-color: #8DD78B;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc2[type="checkbox"] {
+                    position: relative;
+                    appearance: none;
+                    cursor: pointer;
+                    width: 17px;
+                    height: 17px;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    justify-content: center;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc2[type="checkbox"]::after {
+                    position: absolute;
+                    content: url("../img/svg/checkingmark_87358.svg");
+                    width: 15px;
+                    height: 15px;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc2[type="checkbox"]:checked {
+                    background-color: #8DD78B;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc3[type="checkbox"] {
+                    position: relative;
+                    appearance: none;
+                    cursor: pointer;
+                    width: 17px;
+                    height: 17px;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    justify-content: center;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc3[type="checkbox"]::after {
+                    position: absolute;
+                    content: url("../img/svg/checkingmark_87358.svg");
+                    width: 15px;
+                    height: 15px;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_selc3[type="checkbox"]:checked {
+                    background-color: #8DD78B;
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo2 {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 200px;
+                    border: 7px solid darkblue;
+                    .heade_blo2_blo2_ro_sele1_blo2_nm1 {
+                        font-style: normal;
+                        color: #545454;
+                        font-size: 15px;
+                        font-family: "Piazzolla", sans-serif;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo2_descr1 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc1 {
+                            margin-left: 105px;
+                            margin-bottom: -3px;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc1[type="checkbox"] {
+                            position: relative;
+                            appearance: none;
+                            cursor: pointer;
+                            width: 17px;
+                            height: 17px;
+                            background-color: transparent;
+                            border: 1px solid black;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc1[type="checkbox"]::after {
+                            position: absolute;
+                            content: url("../img/svg/checkingmark_87358.svg");
+                            width: 15px;
+                            height: 15px;
+                        }
+        
+                        .heade_blo2_blo2_ro_sele1_blo2_selc1[type="checkbox"]:checked {
+                            background-color: #8DD78B;
+                        }
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo2_descr2 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc2 {
+                            margin-left: 35px;
+                            margin-bottom: -3px;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc2[type="checkbox"] {
+                            position: relative;
+                            appearance: none;
+                            cursor: pointer;
+                            width: 17px;
+                            height: 17px;
+                            background-color: transparent;
+                            border: 1px solid black;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc2[type="checkbox"]::after {
+                            position: absolute;
+                            content: url("../img/svg/checkingmark_87358.svg");
+                            width: 15px;
+                            height: 15px;
+                        }
+        
+                        .heade_blo2_blo2_ro_sele1_blo2_selc2[type="checkbox"]:checked {
+                            background-color: #8DD78B;
+                        }
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo2_descr3 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc3 {
+                            margin-left: 81px;
+                            margin-bottom: -3px;
+                        }
+                        
+                        .heade_blo2_blo2_ro_sele1_blo2_selc3[type="checkbox"] {
+                            position: relative;
+                            appearance: none;
+                            cursor: pointer;
+                            width: 17px;
+                            height: 17px;
+                            background-color: transparent;
+                            border: 1px solid black;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc3[type="checkbox"]::after {
+                            position: absolute;
+                            content: url("../img/svg/checkingmark_87358.svg");
+                            width: 15px;
+                            height: 15px;
+                        }
+        
+                        .heade_blo2_blo2_ro_sele1_blo2_selc3[type="checkbox"]:checked {
+                            background-color: #8DD78B;
+                        }
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo2_descr4 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc4 {
+                            margin-left: 124px;
+                            margin-bottom: -3px;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc4[type="checkbox"] {
+                            position: relative;
+                            appearance: none;
+                            cursor: pointer;
+                            width: 17px;
+                            height: 17px;
+                            background-color: transparent;
+                            border: 1px solid black;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc4[type="checkbox"]::after {
+                            position: absolute;
+                            content: url("../img/svg/checkingmark_87358.svg");
+                            width: 15px;
+                            height: 15px;
+                        }
+        
+                        .heade_blo2_blo2_ro_sele1_blo2_selc4[type="checkbox"]:checked {
+                            background-color: #8DD78B;
+                        }
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo2_descr5 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                        .heade_blo2_blo2_ro_sele1_blo2_selc5 {
+                            margin-left: 106px;
+                            margin-bottom: -3px;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc5[type="checkbox"] {
+                            position: relative;
+                            appearance: none;
+                            cursor: pointer;
+                            width: 17px;
+                            height: 17px;
+                            background-color: transparent;
+                            border: 1px solid black;
+                        }
+
+                        .heade_blo2_blo2_ro_sele1_blo2_selc5[type="checkbox"]::after {
+                            position: absolute;
+                            content: url("../img/svg/checkingmark_87358.svg");
+                            width: 15px;
+                            height: 15px;
+                        }
+        
+                        .heade_blo2_blo2_ro_sele1_blo2_selc5[type="checkbox"]:checked {
+                            background-color: #8DD78B;
+                        }
+                    }
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo3 {
+                    border: 7px solid darkblue;
+                    .heade_blo2_blo2_ro_sele1_blo3_nm1 {
+                        font-style: normal;
+                        color: #545454;
+                        font-size: 15px;
+                        font-family: "Piazzolla", sans-serif;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr1 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr2 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr3 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr4 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr5 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr6 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr7 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr8 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr9 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+                    
+                    .heade_blo2_blo2_ro_sele1_blo3_descr10 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid darkgreen;
+                    }
+                }
+            }
+        }
+    }
+}
