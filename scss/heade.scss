@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100;0,8..30,200;0,8..30,300;0,8..30,400;0,8..30,500;0,8..30,600;0,8..30,700;1,8..30,100;1,8..30,200;1,8..30,300;1,8..30,400;1,8..30,500;1,8..30,600;1,8..30,700&display=swap");
+
+.wrappe {
+    .blo { 
+        .bloc_ro {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            border: 9px solid darkblue;
+            .heade {
+                border: 7px solid darkgreen;
+                .heade_blo_nm1 {
+                    border: 9px solid darkblue;
+                }
+                .heade_blo {
+                    display: flex;
+                    justify-content: flex-end;
+                    column-gap: 30px;
+                    flex-wrap: wrap;
+                    @include doug_scre1 {
+                        justify-content: flex-end;
+                    }
+
+                    @include doug_scre2 {
+                        justify-content: flex-end;
+                    }
+                    @include doug_scre3 {
+                        justify-content: flex-end;
+                        opacity: 0%;
+                    }
+                    .heade_blo_na1 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Koulen", sans-serif;
+                        font-size: 19px;
+                        margin-right: auto;
+                        @include doug_scre2 {
+                            font-style: normal;
+                            color: black;
+                            font-family: "Koulen", sans-serif;
+                            font-size: 17px;
+                            margin-right: auto;
+                        }
+                    }
+    
+                    .heade_blo_na2 {
+                        position: relative;
+                        font-style: normal;
+                        cursor: pointer;
+                        color: black;
+                        font-family: "Source Sans Pro", sans-serif;
+                        font-size: 17px;
+                        align-self: center;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            cursor: pointer;
+                            height: 5px;
+                            bottom: -5px;
+                            border-radius: 50px;
+                            left: 0px;
+                            background-color: transparent;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            background-color: black;
+                            width: 59px;
+                        }
+
+                        @include doug_scre2 {
+                            position: relative;
+                            font-style: normal;
+                            cursor: pointer;
+                            color: black;
+                            font-family: "Source Sans Pro", sans-serif;
+                            font-size: 15px;
+                            align-self: center;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                cursor: pointer;
+                                height: 5px;
+                                bottom: -5px;
+                                border-radius: 50px;
+                                left: 0px;
+                                background-color: transparent;
+                                transition: 0.5s;
+                            }
+                            &:hover::after {
+                                cursor: pointer;
+                                background-color: black;
+                                width: 59px;
+                            }  
+                        }
+                    }
+    
+                    .heade_blo_na3 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans Pro", sans-serif;
+                        font-size: 17px;
+                        cursor: pointer;
+                        align-self: center;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            cursor: pointer;
+                            height: 5px;
+                            bottom: -5px;
+                            border-radius: 50px;
+                            left: 0px;
+                            background-color: transparent;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            background-color: black;
+                            width: 59px;
+                        }
+
+                        @include doug_scre2 {
+                            position: relative;
+                            font-style: normal;
+                            cursor: pointer;
+                            color: black;
+                            font-family: "Source Sans Pro", sans-serif;
+                            font-size: 15px;
+                            align-self: center;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                cursor: pointer;
+                                height: 5px;
+                                bottom: -5px;
+                                border-radius: 50px;
+                                left: 0px;
+                                background-color: transparent;
+                                transition: 0.5s;
+                            }
+                            &:hover::after {
+                                cursor: pointer;
+                                background-color: black;
+                                width: 59px;
+                            }  
+                        }
+
+                    }
+    
+                    .heade_blo_na4 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans Pro", sans-serif;
+                        cursor: pointer;
+                        font-size: 17px;
+                        align-self: center;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            cursor: pointer;
+                            height: 5px;
+                            bottom: -5px;
+                            border-radius: 50px;
+                            left: 0px;
+                            background-color: transparent;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            background-color: black;
+                            width: 59px;
+                        }
+
+                        @include doug_scre2 {
+                            position: relative;
+                            font-style: normal;
+                            cursor: pointer;
+                            color: black;
+                            font-family: "Source Sans Pro", sans-serif;
+                            font-size: 15px;
+                            align-self: center;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                cursor: pointer;
+                                height: 5px;
+                                bottom: -5px;
+                                border-radius: 50px;
+                                left: 0px;
+                                background-color: transparent;
+                                transition: 0.5s;
+                            }
+                            &:hover::after {
+                                cursor: pointer;
+                                background-color: black;
+                                width: 59px;
+                            }  
+                        }
+                    }
+
+                    .heade_blo_na5 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source Sans Pro", sans-serif;
+                        cursor: pointer;
+                        font-size: 17px;
+                        align-self: center;
+                        transition: 0.5s;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            cursor: pointer;
+                            height: 5px;
+                            bottom: -5px;
+                            border-radius: 50px;
+                            left: 0px;
+                            background-color: transparent;
+                            transition: 0.5s;
+                        }
+                        &:hover::after {
+                            cursor: pointer;
+                            background-color: black;
+                            width: 59px;
+                        }
+
+                        @include doug_scre2 {
+                            position: relative;
+                            font-style: normal;
+                            cursor: pointer;
+                            color: black;
+                            font-family: "Source Sans Pro", sans-serif;
+                            font-size: 15px;
+                            align-self: center;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                cursor: pointer;
+                                height: 5px;
+                                bottom: -5px;
+                                border-radius: 50px;
+                                left: 0px;
+                                background-color: transparent;
+                                transition: 0.5s;
+                            }
+                            &:hover::after {
+                                cursor: pointer;
+                                background-color: black;
+                                width: 59px;
+                            }  
+                        }
+                    }
+
+                    .heade_blo_na6 {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+
+            .mai {
+                border: 7px solid darkgreen;
+                flex-wrap: wrap;
+                flex-shrink: 1;
+                flex-grow: 1;
+                flex-basis: 3286px;
+                .heade_blo2 {
+                    background-color: red;
+                }
+            }
+
+            .foote {
+                border: 7px solid darkgreen;
+                flex-wrap: wrap;
+                .heade_blo3 {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}

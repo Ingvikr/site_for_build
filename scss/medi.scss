@@ -1,0 +1,42 @@
+$poi_scree1:1440px;
+$poi_scree2:1024px;
+$poi_scree3:768px;
+$poi_scree4:425px;
+$poi_scree5:375px;
+$poi_scree6:320px;
+
+@mixin doug_scre1 () {
+    @media (max-width:$poi_scree1) {
+        @content;
+    }
+}
+
+@mixin doug_scre2 () {
+    @media (max-width:$poi_scree2) {
+        @content;
+    }
+}
+
+@mixin doug_scre3 () {
+    @media (max-width:$poi_scree3) {
+        @content;
+    }
+}
+
+@mixin doug_scre4 () {
+    @media (max-width:$poi_scree4) {
+        @content;
+    }
+}
+
+@mixin doug_scre5 () {
+    @media (max-width:$poi_scree5) {
+        @content;
+    }
+}
+
+@mixin doug_scre6 () {
+    @media (max-width:$poi_scree6) {
+        @content;
+    }
+}
