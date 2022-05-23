@@ -14,6 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia tristiqu
 Выбирите свою квартиру
 Выбирите свои категории и нажмите конпку “Найти”, и найдётся болле 100+ результатов 
 Цена
+Чиать больше
 Квадратура
 Как пользоваться
 Дороже
