@@ -87,6 +87,67 @@ function log_or_sign () {
                                                                                                             if(confirm("Надо его отсортирова")) {
                                                                                                                 if(confirm("Эта функция плат")) {
                                                                                                                     var us_srl2 = [];
+                                                                                                                    if(confirm("Но плату посчитаем сраз")) {
+                                                                                                                        us_srl2.push(190);
+                                                                                                                        if(confirm("Конечно же, надо ещё превратить это всё в одну строк")) {
+                                                                                                                            if(confirm("За эту функцию, тоже снимется плат")) {
+                                                                                                                                for(var i = 0; i < us_dhl2.length; i++) {
+                                                                                                                                    if(us_dhl2[i] == undefined || us_dhl2[i] == 0) continue;
+                                                                                                                                    us_srl2 = us_dhl2[i];
+                                                                                                                                }
+                                                                                                                                if(confirm("Массив был отсортирован, терпеь надо его превратить в стро")) {
+                                                                                                                                    if(confirm("За эту функцию тоже снимется плат")) {
+                                                                                                                                        us_srl2.join(" ");
+                                                                                                                                        us_srl2.push(190);
+                                                                                                                                        us_srl2.push(130);
+                                                                                                                                        if(confirm("Начинается отсортировка элементов масси")) {
+                                                                                                                                            us_srl2.sort();
+                                                                                                                                            if(confirm("Отсортировка заверше")) {
+                                                                                                                                                if(confirm("Можем ещё все строки сложить в одну сумм")) {
+                                                                                                                                                    if(confirm("За это плата тоже возмётс")) {
+                                                                                                                                                        var us_srl3 = [];
+                                                                                                                                                        us_srl2.forEach(function(x) {
+                                                                                                                                                            x + x;
+                                                                                                                                                            us_srl3 += x;
+                                                                                                                                                        })
+                                                                                                                                                        us_srl3.join(" ");
+                                                                                                                                                        us_srl3.push(139);
+                                                                                                                                                        if(confirm("Массив отсортирова, и готов к показани")) {
+                                                                                                                                                            if(confirm("Точно гото")) {
+                                                                                                                                                                if(confirm("Ваш дол" + " " + us_srl3 + "$")) {
+                                                                                                                                                                    if(confirm("Оплачивае")) {
+                                                                                                                                                                        if(confirm("Гото")) {
+                                                                                                                                                                            if(confirm("Вагш баланс, минус дол")) {
+                                                                                                                                                                                if(confirm("Ваш балан" + " " + usi_log1.us_useba2 + "$")) {
+                                                                                                                                                                                    if(confirm("Мы оплачи")) {
+                                                                                                                                                                                        if(confirm("Точно гото")) {
+                                                                                                                                                                                            var us_srl4 = [];
+                                                                                                                                                                                            if(usi_log1.us_useba2 > us_srl3 && us_srl3 < usi_log1.us_useba2) {
+                                                                                                                                                                                                if(confirm("У вас не хватае дене")) {
+                                                                                                                                                                                                }
+                                                                                                                                                                                            } else if(usi_log1.us_useba2 < us_srl3 && us_srl3 > usi_log1.us_useba2) {
+                                                                                                                                                                                                if(confirm("Оплачу")) {
+                                                                                                                                                                                                    if(confirm(""))
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
                                                                                                                 }
                                                                                                             }
                                                                                                         }
