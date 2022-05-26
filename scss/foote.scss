@@ -1,0 +1,278 @@
+.foote {
+    .heade_blo3 {
+        border: 7px solid transparent;
+        background-color: #FFE8E8;
+        .foote_blo3_ro {
+            display: flex;
+            flex-direction: column;
+            border: 7px solid transparent;
+            .foote_blo3_ro_blo1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 7px solid transparent;
+                @include doug_scre2 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border: 7px solid transparent;
+                }
+
+                @include doug_scre3 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    border: 7px solid transparent;
+                }
+
+                @include doug_scre4 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    border: 7px solid transparent; 
+                }
+                .foote_blo3_ro_blo1_nm1 {
+                    font-style: normal;
+                    color: black;
+                    font-size: 17px;
+                    font-family: "Koulen", sans-serif;
+                    border: 7px solid transparent;
+                    @include doug_scre3 {
+                        font-style: normal;
+                        color: black;
+                        font-size: 15px;
+                        font-family: "Koulen", sans-serif;
+                        border: 7px solid transparent;
+                    }
+                }
+
+                .foote_blo3_ro_blo1_blo2 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 35px;
+                    flex-grow: 1;
+                    flex-wrap: wrap;
+                    border: 7px solid transparent;
+                    .foote_blo3_ro_blo1_blo2_ln1 {
+                        position: relative;
+                        cursor: pointer;
+                        font-style: normal;
+                        color: #444444;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        transition: 0.5s;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            left: 0px;
+                            bottom: -5px;
+                            cursor: pointer;
+                            height: 5px;
+                            border-radius: 79px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 130px;
+                        }
+
+                        @include doug_scre3 {
+                            position: relative;
+                            cursor: pointer;
+                            font-style: normal;
+                            color: #444444;
+                            font-size: 13px;
+                            font-family: "Source Sans 3", sans-serif;
+                            transition: 0.5s;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                left: 0px;
+                                bottom: -5px;
+                                cursor: pointer;
+                                height: 5px;
+                                border-radius: 79px;
+                                background-color: black;
+                                transition: 0.5s;
+                             }
+
+                            &:hover::after {
+                                cursor: pointer;
+                                width: 110px;
+                            }
+                        }
+                    }
+
+                    .foote_blo3_ro_blo1_blo2_ln2 {
+                        position: relative;
+                        cursor: pointer;
+                        font-style: normal;
+                        color: #444444;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        transition: 0.5s;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            left: 0px;
+                            bottom: -5px;
+                            cursor: pointer;
+                            height: 5px;
+                            border-radius: 79px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 130px;
+                        }
+
+                        @include doug_scre3 {
+                            position: relative;
+                            cursor: pointer;
+                            font-style: normal;
+                            color: #444444;
+                            font-size: 13px;
+                            font-family: "Source Sans 3", sans-serif;
+                            transition: 0.5s;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                left: 0px;
+                                bottom: -5px;
+                                cursor: pointer;
+                                height: 5px;
+                                border-radius: 79px;
+                                background-color: black;
+                                transition: 0.5s;
+                             }
+
+                             &:hover::after {
+                                cursor: pointer;
+                                width: 110px;
+                            }
+                        }
+                        
+                    }
+
+                    .foote_blo3_ro_blo1_blo2_ln3 {
+                        position: relative;
+                        cursor: pointer;
+                        font-style: normal;
+                        color: #444444;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        transition: 0.5s;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            left: 0px;
+                            bottom: -5px;
+                            cursor: pointer;
+                            height: 5px;
+                            border-radius: 79px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 130px;
+                        }
+
+                        @include doug_scre3 {
+                            position: relative;
+                            cursor: pointer;
+                            font-style: normal;
+                            color: #444444;
+                            font-size: 13px;
+                            font-family: "Source Sans 3", sans-serif;
+                            transition: 0.5s;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                left: 0px;
+                                bottom: -5px;
+                                cursor: pointer;
+                                height: 5px;
+                                border-radius: 79px;
+                                background-color: black;
+                                transition: 0.5s;
+                             }
+
+                             &:hover::after {
+                                cursor: pointer;
+                                width: 110px;
+                            }
+                        }
+                        
+                    }
+
+                    .foote_blo3_ro_blo1_blo2_ln4 {
+                        position: relative;
+                        cursor: pointer;
+                        font-style: normal;
+                        color: #444444;
+                        font-size: 15px;
+                        font-family: "Source Sans 3", sans-serif;
+                        transition: 0.5s;
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 0px;
+                            left: 0px;
+                            bottom: -5px;
+                            cursor: pointer;
+                            height: 5px;
+                            border-radius: 79px;
+                            background-color: black;
+                            transition: 0.5s;
+                        }
+
+                        &:hover::after {
+                            cursor: pointer;
+                            width: 130px;
+                        }
+
+                        @include doug_scre3 {
+                            position: relative;
+                            cursor: pointer;
+                            font-style: normal;
+                            color: #444444;
+                            font-size: 13px;
+                            font-family: "Source Sans 3", sans-serif;
+                            transition: 0.5s;
+                            &::after {
+                                content: " ";
+                                position: absolute;
+                                width: 0px;
+                                left: 0px;
+                                bottom: -5px;
+                                cursor: pointer;
+                                height: 5px;
+                                border-radius: 79px;
+                                background-color: black;
+                                transition: 0.5s;
+                             }
+
+                             &:hover::after {
+                                cursor: pointer;
+                                width: 110px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

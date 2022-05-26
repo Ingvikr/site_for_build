@@ -87,6 +87,7 @@ function log_or_sign () {
                                                                                                             if(confirm("Надо его отсортирова")) {
                                                                                                                 if(confirm("Эта функция плат")) {
                                                                                                                     var us_srl2 = [];
+                                                                                        
                                                                                                                 }
                                                                                                             }
                                                                                                         }

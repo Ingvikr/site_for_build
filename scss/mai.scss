@@ -3,13 +3,13 @@
         .heade_blo2_blo1 {
             display: flex;
             flex-direction: column;
-            border: 9px solid darkblue;
+            border: 9px solid transparent;
             .heade_blo2_blo1_ro {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                border: 7px solid darkgreen;
+                border: 7px solid transparent;
                 .heade_blo2_blo1_ro_tx1 {
                     font-style: normal;
                     color: black;
@@ -43,7 +43,7 @@
                     max-width: 430px;
                     justify-content: flex-end;
                     cursor: pointer;
-                    border: 7px solid darkblue;
+                    border: 1px solid black;
                     transition: 0.5s;
                     &:hover {
                         cursor: pointer;
@@ -149,7 +149,7 @@
                     flex-direction: column;
                     max-width: 430px;
                     justify-content: flex-end;
-                    border: 7px solid darkblue;
+                    border: 1px solid black;
                     transition: 0.5s;
                     &:hover {
                         cursor: pointer;
@@ -256,7 +256,7 @@
                     flex-direction: column;
                     max-width: 430px;
                     justify-content: flex-end;
-                    border: 7px solid darkblue;
+                    border: 1px solid black;
                     transition: 0.5s;
                     &:hover {
                         cursor: pointer;
@@ -360,22 +360,22 @@
             }
         }
         .heade_blo2_blo2 {
-            border: 9px solid darkblue;
+            border: 9px solid transparent;
             .heade_blo2_blo2_ro {
                 display: flex;
                 flex-direction: column;
-                border: 7px solid darkgreen;
+                border: 7px solid transparent;
                 .heade_blo2_blo2_ro_sele1 {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    border: 7px solid darkgreen;
+                    border: 7px solid transparent;
                     .heade_blo2_blo2_ro_sele1_nm1 {
                         font-style: normal;
                         font-family: "Arimo", sans-serif;
                         color: black;
                         font-size: 17px;
-                        border: 7px solid darkblue;
+                        border: 7px solid transparent;
                     }
 
                     .heade_blo2_blo2_ro_sele1_nm2 {
@@ -383,8 +383,21 @@
                         color: #414141;
                         font-size: 15px;
                         font-family: "Source Sans 3", sans-serif;
-                        border: 7px solid darkblue; 
+                        border: 7px solid transparent; 
                     }
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo1_disp {
+                    display: flex;
+                    flex-direction: row;
+                   justify-content: space-between;
+                   border: 1px solid black;
+                   @include doug_scre2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border: 1px solid black;
+                   }
                 }
                 .heade_blo2_blo2_ro_sele1_blo1 {
                     display: flex;
@@ -392,14 +405,15 @@
                     flex-grow: 1;
                     flex-shrink: 1;
                     max-width: 200px;
-                    border: 7px solid darkblue;
+                    border: 7px solid transparent;
+                    border: 1px solid black;
                     .heade_blo2_blo2_ro_sele1_blo1_nm1 {
                         max-width: 70px;
                         font-style: normal;
                         color: #545454;
                         font-size: 15px;
                         font-family: "Piazzolla", sans-serif;
-                        border: 7px solid darkblue;
+                        border: 7px solid transparent;
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo1_descr1 {
@@ -408,7 +422,7 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkblue;
+                        border: 7px solid transparent;
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo1_descr2 {
@@ -417,7 +431,7 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkblue;
+                        border: 7px solid transparent;
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo1_descr3 {
@@ -426,7 +440,7 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkblue;
+                        border: 7px solid transparent;
                     }
                 }
 
@@ -438,7 +452,7 @@
                     justify-content: space-around;
                     margin-left: auto;
                     margin-top: -119px;
-                    border: 7px solid darkblue;
+                    border: 7px solid transparent;
                     .heade_blo2_blo2_ro_sele1_blo1_selc1 {
                     }
 
@@ -519,13 +533,15 @@
                     display: flex;
                     flex-direction: column;
                     max-width: 200px;
-                    border: 7px solid darkblue;
+                    border: 7px solid transparent;
+                    border: 1px solid black;
+                    justify-content: space-between;
                     .heade_blo2_blo2_ro_sele1_blo2_nm1 {
                         font-style: normal;
                         color: #545454;
                         font-size: 15px;
                         font-family: "Piazzolla", sans-serif;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo2_descr1 {
@@ -533,10 +549,10 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
 
                         .heade_blo2_blo2_ro_sele1_blo2_selc1 {
-                            margin-left: 105px;
+                            margin-left: 102px;
                             margin-bottom: -3px;
                         }
 
@@ -567,10 +583,10 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
 
                         .heade_blo2_blo2_ro_sele1_blo2_selc2 {
-                            margin-left: 35px;
+                            margin-left: 31px;
                             margin-bottom: -3px;
                         }
 
@@ -601,10 +617,10 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
 
                         .heade_blo2_blo2_ro_sele1_blo2_selc3 {
-                            margin-left: 81px;
+                            margin-left: 77px;
                             margin-bottom: -3px;
                         }
                         
@@ -635,10 +651,10 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
 
                         .heade_blo2_blo2_ro_sele1_blo2_selc4 {
-                            margin-left: 124px;
+                            margin-left: 120px;
                             margin-bottom: -3px;
                         }
 
@@ -669,9 +685,9 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
                         .heade_blo2_blo2_ro_sele1_blo2_selc5 {
-                            margin-left: 106px;
+                            margin-left: 103px;
                             margin-bottom: -3px;
                         }
 
@@ -699,13 +715,53 @@
                 }
 
                 .heade_blo2_blo2_ro_sele1_blo3 {
-                    border: 7px solid darkblue;
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 200px;
+                    border: 7px solid transparent;
+                    border: 1px solid black;
                     .heade_blo2_blo2_ro_sele1_blo3_nm1 {
                         font-style: normal;
                         color: #545454;
                         font-size: 15px;
                         font-family: "Piazzolla", sans-serif;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr1 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr1 {
@@ -713,15 +769,88 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
                     }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr2 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
+                    }
+
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr2 {
                         font-style: normal;
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr3 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr3 {
@@ -729,7 +858,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr4 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr4 {
@@ -737,7 +902,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr5 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr5 {
@@ -745,7 +946,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr6 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr6 {
@@ -753,7 +990,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr7 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr7 {
@@ -761,7 +1034,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr8 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr8 {
@@ -769,7 +1078,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr9 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
 
                     .heade_blo2_blo2_ro_sele1_blo3_descr9 {
@@ -777,7 +1122,43 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo3_descr10 input[type="radio"] {
+                        position: relative;
+                        cursor: pointer;
+                        appearance: none;
+                        transition: 0.5s;
+                        &::before {
+                            content: " ";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            border-radius: 75px;
+                            background-color: transparent;
+                            border: 1px solid #404040;
+                            transition: 0.5s;
+                        }
+
+                        &::after {
+                            content: " ";
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 75px;
+                            background-color: #8DD78B;
+                            position: absolute;
+                            left: 2px;
+                            opacity: 0%;
+                            bottom: 2px;
+                            transition: 0.5s;
+                        }
+                        &:checked {
+                            &::after {
+                                opacity: 100%;
+                            }
+                        }
                     }
                     
                     .heade_blo2_blo2_ro_sele1_blo3_descr10 {
@@ -785,7 +1166,378 @@
                         color: black;
                         font-family: "Source Sans 3", sans-serif;
                         font-size: 17px;
-                        border: 7px solid darkgreen;
+                        border: 7px solid transparent;
+                    }
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo4 {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 15px;
+                    border: 7px solid transparent;
+                    border: 1px solid black;
+                    @include doug_scre2 {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 15px;
+                    }
+                    .heade_blo2_blo2_ro_sele1_blo4_nm1 {
+                        font-style: normal;
+                        font-family: "Source Sans 3", sans-serif;
+                        color: black;
+                        font-size: 17px;
+                        border: 7px solid transparent;
+                    }
+                    .heade_blo2_blo2_ro_sele1_blo4_descr1 {
+                        position: relative;
+                        font-style: normal;
+                        color: black;
+                        font-family: "Source San 3", sans-serif;
+                        font-size: 13px;
+                        border: 7px solid transparent;
+                        width: 110px;
+                        height: 33px;
+                        outline: none;
+                        background-color: transparent;
+                        .heade_blo2_blo2_ro_sele1_blo4_descr2 {
+                        }
+                    }
+                }
+
+                .heade_blo2_blo2_ro_sele1_blo5 {
+                    display: flex;
+                    flex-direction: column;
+                    border: 7px solid transparent;
+                    border: 1px solid black;
+                    margin-top: 13px;
+                    .heade_blo2_blo2_ro_sele1_blo5_nm1 {
+                        font-style: normal;
+                        color: black;
+                        font-family: "Arimo", sans-serif;
+                        font-size: 17px;
+                        border: 7px solid transparent;
+                        align-self: center;
+                        @include doug_scre2 {
+                            font-style: normal;
+                            color: black;
+                            font-family: "Arimo", sans-serif;
+                            font-size: 17px;
+                            border: 7px solid transparent;
+                            align-self: center;
+                        }
+
+                        @include doug_scre3 {
+                            font-style: normal;
+                            color: black;
+                            font-family: "Arimo", sans-serif;
+                            font-size: 17px;
+                            border: 7px solid transparent;
+                            align-self: flex-start;
+                        }
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo5_descr1 {
+                        font-style: normal;
+                        color: #3F3F3F;
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 15px;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo5_blobu1 {
+                        align-self: flex-end;
+                        @include doug_scre2 {
+                            align-self: center;
+                        }
+
+                        @include doug_scre3 {
+                            align-self: flex-start;
+                        }
+                        .heade_blo2_blo2_ro_sele1_blo5_blobu1_nm1 {
+                            font-style: normal;
+                            font-size: 15px;
+                            color: #4A4A4A;
+                            font-family: "Source Sans 3", sans-serif;
+                        }
+                        .heade_blo2_blo2_ro_sele1_blo5_butto1 {
+                            width: 170px;
+                            height: 33px;
+                            background-color: transparent;
+                            color: black;
+                            font-style: normal;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            border: 1px solid #FF8000;
+                            transition: 0.5s;
+                            &:hover {
+                                width: 170px;
+                                height: 33px;
+                                background-color: #FF8000;
+                                color: white;
+                                font-style: normal;
+                                font-size: 15px;
+                                cursor: pointer;
+                                font-family: "Source Sans 3", sans-serif;
+                                border: 1px solid #FF8000;
+                            }
+                        }
+                    }
+
+                    .heade_blo2_blo2_ro_sele1_blo5_butto2 {
+                        width: 170px;
+                        height: 33px;
+                        background-color: transparent;
+                        color: black;
+                        font-style: normal;
+                        font-size: 15px;
+                        cursor: pointer;
+                        font-family: "Source Sans 3", sans-serif;
+                        border: 1px solid #E15E5E;
+                        transition: 0.5s;
+                        align-self: flex-end;
+                        @include doug_scre2 {
+                            align-self: center;
+                            &:hover {
+                                width: 170px;
+                                height: 33px;
+                                background-color: #E15E5E;
+                                color: white;
+                                font-style: normal;
+                                font-size: 15px;
+                                cursor: pointer;
+                                font-family: "Source Sans 3", sans-serif;
+                                border: 1px solid #E15E5E;
+                            }
+                        }
+
+                        @include doug_scre3 {
+                            align-self: flex-start;
+                            &:hover {
+                                width: 170px;
+                                height: 33px;
+                                background-color: #E15E5E;
+                                color: white;
+                                font-style: normal;
+                                font-size: 15px;
+                                cursor: pointer;
+                                font-family: "Source Sans 3", sans-serif;
+                                border: 1px solid #E15E5E;
+                            }
+                        }
+                        &:hover {
+                            width: 170px;
+                            height: 33px;
+                            background-color: #E15E5E;
+                            color: white;
+                            font-style: normal;
+                            font-size: 15px;
+                            cursor: pointer;
+                            font-family: "Source Sans 3", sans-serif;
+                            border: 1px solid #E15E5E;
+                        }
+                    }
+                }
+            }
+        }
+        .heade_blo2_blo3 {
+            .heade_blo2_blo3_ro {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border: 7px solid transparent;
+                flex-wrap: wrap;
+                @include doug_scre2 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    border: 7px solid transparent;
+                    flex-wrap: wrap;
+                    row-gap: 17px;
+                }
+
+                @include doug_scre3 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    border: 7px solid transparent;
+                    flex-wrap: wrap;
+                    row-gap: 33px;
+                }
+                .heade_blo2_blo3_ro_produ1 {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: transparent;
+                    border: 1px solid black;
+                    max-width: 250px;
+                    flex-wrap: wrap;
+                    cursor: pointer;
+                    border: 7px solid transparent;
+                    transition: 0.5s;
+                    &:hover {
+                        display: flex;
+                        cursor: pointer;
+                        flex-direction: column;
+                        background-color: transparent;
+                        border: 1px solid black;
+                        max-width: 250px;
+                        border: 7px solid transparent;
+                        flex-wrap: wrap;
+                        box-shadow: 0px -1px 4px 4px black;
+                    }
+                    .heade_blo2_blo3_ro_produ1_im1 {
+                        display: flex;
+                        max-width: 235px;
+                        max-height: 235px;
+                        border: 7px solid transparent;
+                        flex-wrap: wrap;
+                    }
+
+                    .heade_blo2_blo3_ro_produ1_nm1 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Arimo", sans-serif;
+                        border: 7px solid transparent;
+                    }
+
+                    .heade_blo2_blo3_ro_produ1_blo1 {
+                        border: 7px solid transparent;
+                        .heade_blo2_blo3_ro_produ1_blo1_pla1 {
+                            display: flex;
+                            flex-direction: column;
+                            border: 7px solid transparent;
+                            flex-wrap: wrap;
+                            align-items: flex-start;
+                            max-width: 250px;
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac1 {
+                                font-style: normal;
+                                color: #545454;
+                                font-size: 15px;
+                                font-family: "Piazzolla", sans-serif;
+                                list-style: none;
+                                border: 7px solid transparent;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac1 span {
+                                font-style: normal;
+                                color: black;
+                                font-size: 15px;
+                                font-family: "Source Sans 3", sans-serif;
+                                margin-left: 7px;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac2 {
+                                font-style: normal;
+                                color: #545454;
+                                font-size: 15px;
+                                font-family: "Piazzolla", sans-serif;
+                                list-style: none;
+                                border: 7px solid transparent;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac2 span {
+                                font-style: normal;
+                                color: black;
+                                font-size: 15px;
+                                margin-left: 7px;
+                                font-family: "Source Sans 3", sans-serif;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac3 {
+                                font-style: normal;
+                                color: #545454;
+                                font-size: 15px;
+                                font-family: "Piazzolla", sans-serif;
+                                list-style: none;
+                                border: 7px solid transparent;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac3 span {
+                                font-style: normal;
+                                color: black;
+                                font-size: 15px;
+                                margin-left: 7px;
+                                font-family: "Source Sans 3", sans-serif;
+                            }
+
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac4 {
+                                font-style: normal;
+                                color: #545454;
+                                font-size: 15px;
+                                font-family: "Source Sans 3", sans-serif;
+                                list-style: none;
+                                border: 7px solid transparent;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac4 span {
+                                font-style: normal;
+                                color: black;
+                                font-size: 15px;
+                                font-family: "Source Sans 3", sans-serif;
+                                margin-left: 7px;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac5 {
+                                font-style: normal;
+                                color: #545454;
+                                font-size: 15px;
+                                font-family: "Source Sans 3", sans-serif;
+                                list-style: none;
+                                border: 7px solid transparent;
+                            }
+
+                            .heade_blo2_blo3_ro_produ1_blo1_pla1_plac5 span {
+                                font-style: normal;
+                                color: black;
+                                font-size: 15px;
+                                font-family: "Source Sans 3", sans-serif;
+                                margin-left: 7px;
+                            }
+                        }
+                    }
+
+                    .heade_blo2_blo3_ro_produ1_blo_pric {
+                        display: flex;
+                        flex-direction: column;
+                        border: 7px solid transparent;
+                        max-width: 250px;
+                        align-items: flex-end;
+                        .heade_blo2_blo3_ro_produ1_blo_pric_pri1 {
+                            font-style: normal;
+                            color: black;
+                            font-size: 17px;
+                            margin-right: auto;
+                            margin-bottom: -23px;
+                            align-self: center;
+                            justify-self: center;
+                            font-family: "Source Sans 3", sans-serif;
+                        }
+
+                        .heade_blo2_blo3_ro_produ1_blo_pric_but1 {
+                            width: 119px;
+                            height: 29px;
+                            background-color: transparent;
+                            border: 1px solid #FF8000;
+                            cursor: pointer;
+                            font-style: normal;
+                            color: black;
+                            font-size: 15px;
+                            font-family: "Arimo", sans-serif;
+                            transition: 0.5s;
+                            &:hover {
+                                width: 119px;
+                                height: 29px;
+                                background-color: #FF8000;
+                                border: 1px solid #FF8000;
+                                cursor: pointer;
+                                font-style: normal;
+                                color: white;
+                                font-size: 15px;
+                                font-family: "Arimo", sans-serif;
+                            }
+                        }
                     }
                 }
             }
